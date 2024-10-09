@@ -264,13 +264,14 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;
 }
 body {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
 }
 a,
@@ -297,8 +298,8 @@ p {
 }
 body {
   color: var(--primarytextcolor);
-  font-size: 16px;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
 input:focus,
@@ -318,7 +319,7 @@ textarea:focus {
 }
 .heading {
   color: var(--secondarytextcolor);
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 30px;
 }
@@ -346,22 +347,23 @@ header .header_inner .header_nav li a {
   background-image: url(../images/banner.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 188px 0 53px;
+  padding: 80px 0 40px;
 }
 .banner_outer .banner_inner {
   max-width: 643px;
   margin-left: auto;
-  padding: 85px 22px 46px 56px;
+  padding: 40px 22px 46px 56px;
   border-radius: 10px;
 }
 .banner_outer .banner_inner .title_text {
   font-weight: 600;
   color: var(--accentcolor);
   display: block;
-  margin-bottom: 22px;
+  margin-bottom: 0px;
+  font-size: 20px;
 }
 .banner_outer .banner_inner h1 {
-  font-size: 52px;
+  font-size: 48px;
   font-weight: bold;
   line-height: 65px;
   color: var(--secondarytextcolor);
@@ -369,14 +371,14 @@ header .header_inner .header_nav li a {
 .banner_outer .banner_inner .yellow_box {
   margin: 12px 0;
   color: var(--secondarytextcolor);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  line-height: 36px;
+  line-height: 1.5;
   display: block;
 }
 .banner_outer .banner_inner p {
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
   color: var(--accentcolor);
   font-weight: 600;
 }
@@ -403,13 +405,16 @@ header .header_inner .header_nav li a {
 .who_sec_outer .who_sec_inner ul {
   display: flex;
   gap: 30px;
+  margin: auto;
   margin-top: 33px;
+  max-width: 80%;
 }
 .why_sec .why_sec_inner ul img,
 .who_sec_outer .why_sec_inner ul img,
 .why_sec .who_sec_inner ul img,
 .who_sec_outer .who_sec_inner ul img {
   border-radius: 20px;
+  width: 100%;
 }
 .how_sec_outer {
   /* Show the right side only */
